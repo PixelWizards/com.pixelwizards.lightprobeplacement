@@ -1,0 +1,10 @@
+Temp/
+.vs/
+*.csproj
+*.sln
+obj/
+Library/
+
+
+/Library/
+_Bundles/
