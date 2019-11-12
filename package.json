@@ -1,13 +1,13 @@
 {
-  "name": "com.unity.ig.lightprobeplacement",
-  "displayName": "IG - Light Probe Placement Tools",
+  "name": "com.pixelwizards.lightprobeplacement",
+  "displayName": "PixelWizards - Light Probe Placement Tools",
   "version": "0.1.0-preview.1",
   "unity": "2018.4",
   "description": "Small helper components to assist with placement of Light probes. Originally from here: https://github.com/AlexanderVorobyov/simple-light-probe-placer",
   "author": {
-    "name": "Unity Innovation Group",
-    "email": "support@unity3d.com",
-    "url": "http://www.unity3d.com"
+    "name": "Pixel Wizards",
+    "email": "support@gamedev.ca",
+    "url": "http://www.gamedev.ca"
   },
   "keywords": [],
   "dependencies": {}
