@@ -16,7 +16,7 @@
 
 # About
 
-| [<img src="Documentation~/img/background.jpg" alt="" height="360px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/background.jpg) |
+| [<img src="img/background.jpg" alt="" height="360px" />](img/background.jpg) |
 | :---: |
 | **[Simple Light Probe Placer](https://www.assetstore.unity3d.com/en/#!/content/58290)** |
 
@@ -46,11 +46,11 @@ You can create new instance, just using create menu on top of
 **Hierarchy** tab or add new **Light Probe Volume** component to your
 **GameObject** using **Add Component** menu.
 
-| [<img src="Documentation/img/create_2.jpg" alt="Create Light Probe Volume" height="312px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/create_2.jpg) |
+| [<img src="img/create_2.jpg" alt="Create Light Probe Volume" height="312px" />](img/create_2.jpg) |
 | :---: |
 | **Path:** Create > Light > Light Probe Volume |
 
-| [<img src="Documentation/img/inspector_menu_01.jpg" alt="Add Light Probe Volume component" height="312px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/inspector_menu_01.jpg) |
+| [<img src="img/inspector_menu_01.jpg" alt="Add Light Probe Volume component" height="312px" />](img/inspector_menu_01.jpg) |
 | :---: |
 | **Path:** Add Component > Rendering > Light Probe Volume |
 
@@ -60,13 +60,13 @@ represents places in scene, where it will create **Light Probe**.
 
 > **Note:** If you want hide 3d gizmos see [here](#also).
 
-| [<img src="Documentation/img/scene_lpv.jpg" alt="Light Probe Volume in scene" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/scene_lpv.jpg) |
+| [<img src="img/scene_lpv.jpg" alt="Light Probe Volume in scene" />](img/scene_lpv.jpg) |
 | :---: |
 | Light Probe Volume in scene. |
 
 <a name="ins-lpv"></a>
 ## Inspector
-| [<img src="Documentation/img/inspector_lpv.jpg" alt="Light Probe Volume in inspector" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/inspector_lpv.jpg) |
+| [<img src="img/inspector_lpv.jpg" alt="Light Probe Volume in inspector" />](img/inspector_lpv.jpg) |
 | :---: |
 | It’s how it looks in inspector. |
 
@@ -86,7 +86,7 @@ represents places in scene, where it will create **Light Probe**.
 ## Density
 **Light Probe Volume** has two types of density: **Fixed** and **Float**.
 
-| [<img src="Documentation/img/inspector_lpv_type.jpg" alt="Density type" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/inspector_lpv_type.jpg) |
+| [<img src="img/inspector_lpv_type.jpg" alt="Density type" />](img/inspector_lpv_type.jpg) |
 | :---: |
 | Type of density. |
 
@@ -94,11 +94,11 @@ represents places in scene, where it will create **Light Probe**.
 Fixed density depend on how much it should divide space inside volume by specified axis
 for placing probes. And density always will be fixed, regardless of volume size.
 
-| [<img src="Documentation/img/fixed_density.jpg" alt="Fixed density settings" height="312px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/fixed_density.jpg) |
+| [<img src="img/fixed_density.jpg" alt="Fixed density settings" height="312px" />](img/fixed_density.jpg) |
 | :---: |
 | Example of different fixed density settings. |
 
-| [<img src="Documentation/img/fixed_size_scene_0.jpg" alt="Fixed density size" height="312px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/fixed_size_scene_0.jpg) |
+| [<img src="img/fixed_size_scene_0.jpg" alt="Fixed density size" height="312px" />](img/fixed_size_scene_0.jpg) |
 | :---: |
 | Example of how is changing density with fixed type, depend on volume size. |
 
@@ -106,11 +106,11 @@ for placing probes. And density always will be fixed, regardless of volume size.
 Float density depend on distance between each probe in specified axis.
 It will fills space inside volume, so density always will be float and will depend on volume size.
 
-| [<img src="Documentation/img/float_density.jpg" alt="Flaot density settings" height="312px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/float_density.jpg) |
+| [<img src="img/float_density.jpg" alt="Flaot density settings" height="312px" />](img/float_density.jpg) |
 | :---: |
 | Example of different float density settings. |
 
-| [<img src="Documentation/img/float_size_scene_0.jpg" alt="Float density size" height="312px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/float_size_scene_0.jpg) |
+| [<img src="img/float_size_scene_0.jpg" alt="Float density size" height="312px" />](img/float_size_scene_0.jpg) |
 | :---: |
 | Example of how is changing density with float type, depend on volume size. |
 
@@ -129,11 +129,11 @@ You can create new instance, just using create menu on top of
 
 > **Note:** After add new **Light Probe Group Control** component, it will automatically add **Light Probe Group** to the same **GameObject**.
 
-| [<img src="Documentation/img/create_1.jpg" alt="Create Light Probe Group Control" height="312px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/create_1.jpg) |
+| [<img src="img/create_1.jpg" alt="Create Light Probe Group Control" height="312px" />](img/create_1.jpg) |
 | :---: |
 | **Path:** Create > Light > Light Probe Group Control |
 
-| [<img src="Documentation/img/inspector_menu_02.jpg" alt="Add Light Group Control component" height="312px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/inspector_menu_02.jpg) |
+| [<img src="img/inspector_menu_02.jpg" alt="Add Light Group Control component" height="312px" />](img/inspector_menu_02.jpg) |
 | :---: |
 | **Path:** Add Component > Rendering > Light Probe Group Control |
 
@@ -141,13 +141,13 @@ In scene it will looks like this (without 3d gimzo).
 
 > Note: If you want hide 3d gizmos see [here](#also).
 
-| [<img src="Documentation/img/scene_lpgc.jpg" alt="Light Group Control in scene" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/scene_lpgc.jpg) |
+| [<img src="img/scene_lpgc.jpg" alt="Light Group Control in scene" />](img/scene_lpgc.jpg) |
 | :---: |
 | Light Group Control in scene. |
 
 <a name="ins-lpgc"></a>
 ## Inspector
-| [<img src="Documentation/img/inspector_lpgc.jpg" alt="Light Group Control in inspector" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/inspector_lpgc.jpg) |
+| [<img src="img/inspector_lpgc.jpg" alt="Light Group Control in inspector" />](img/inspector_lpgc.jpg) |
 | :---: |
 | Light Group Control in inspector. |
 
@@ -166,32 +166,32 @@ In scene it will looks like this (without 3d gimzo).
 Using this options, you can create **Light Probes** around **Point Lights**
 and control distance to it, using **Range** option (see above in table).
 
-| [<img src="Documentation/img/scene_light.jpg" alt="Light in scene" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/scene_light.jpg) |
+| [<img src="img/scene_light.jpg" alt="Light in scene" />](img/scene_light.jpg) |
 | :---: |
 | How it’s look like in scene. |
 
-| [<img src="Documentation/img/scene_end_1.jpg" alt="Worked example" height="360px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/scene_end_1.jpg) |
+| [<img src="img/scene_end_1.jpg" alt="Worked example" height="360px" />](img/scene_end_1.jpg) |
 | :---: |
 | Worked example. |
 
 # Example usage
 It is example how it's worked. Scroll down to see steps.
 
-| [<img src="Documentation/img/scene_create_1.jpg" alt="" height="360px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/scene_create_1.jpg) |
+| [<img src="img/scene_create_1.jpg" alt="" height="360px" />](img/scene_create_1.jpg) |
 | :---: |
 | Step 1: We have scene without any baked data. |
 
-| [<img src="Documentation/img/scene_create_2.jpg" alt="" height="360px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/scene_create_2.jpg) |
+| [<img src="img/scene_create_2.jpg" alt="" height="360px" />](img/scene_create_2.jpg) |
 | :---: |
 | Step 2: Now we should place everywhere where it's need **Light Probe Volume** and set up size and density for each. |
 
 > Note: Don't forget add **Light Probe Group Control**.
 
-| [<img src="Documentation/img/scene_create_3.jpg" alt="" height="360px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/scene_create_3.jpg) |
+| [<img src="img/scene_create_3.jpg" alt="" height="360px" />](img/scene_create_3.jpg) |
 | :---: |
 | Step 3: After you finish setup all **Light Probe Volume**, in **Light Probe Group Control** press a **Create Light Probes** button. |
 
-| [<img src="Documentation/img/scene_create_4.jpg" alt="" height="360px" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/scene_create_4.jpg) |
+| [<img src="img/scene_create_4.jpg" alt="" height="360px" />](img/scene_create_4.jpg) |
 | :---: |
 | Step 4: And finally bake you scene data. |
 
@@ -202,7 +202,7 @@ can find list of all gizmos for showing in **Scene** window. After open it, you 
 similar with what shows in first column on image below and you can just press on icon of what you want to hide or show in **Scene**.
 That's all and Good Luck!
 
-| [<img src="Documentation/img/gimzos_0.jpg" alt="How turn of scene gimzos" height="80%" />](https://github.com/AlexanderVorobyov/simple-light-probe-placer/raw/master/Documentation/img/gimzos_0.jpg) |
+| [<img src="img/gimzos_0.jpg" alt="How turn of scene gimzos" height="80%" />](img/gimzos_0.jpg) |
 | :---: |
 | How turn off scene gizmos. From right to left. |
 
