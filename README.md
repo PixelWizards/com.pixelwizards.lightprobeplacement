@@ -7,8 +7,10 @@ https://github.com/AlexanderVorobyov/simple-light-probe-placer
 **Simple Light Probe Placer** is a simple tool for [Unity3d](https://unity3d.com/)
 and it help you easily place **Light Probes** in your scene.
 
-It provides two new components: **Light Probe Volume** and **Light Probe Group Control**,
-on which you can read below.
+It provides two new components: **Light Probe Volume** and **Light Probe Group Control**.
+
+Check the documentation for more info:
+https://github.com/PixelWizards/com.pixelwizards.lightprobeplacement/blob/master/Documentation~/index.md
 
 Prerequistes
 ---------------
