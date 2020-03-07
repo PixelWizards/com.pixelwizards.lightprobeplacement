@@ -1,7 +1,7 @@
 {
   "name": "com.pixelwizards.lightprobeplacement",
   "displayName": "PixelWizards - Light Probe Placement Tools",
-  "version": "0.1.0-preview.1",
+  "version": "0.1.0-preview.2",
   "unity": "2018.4",
   "description": "Small helper components to assist with placement of Light probes. Originally from here: https://github.com/AlexanderVorobyov/simple-light-probe-placer",
   "author": {
