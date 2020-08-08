@@ -1,0 +1,17 @@
+{
+    "name": "LightProbePlacement.Editor",
+    "references": [
+        "GUID:9235d3a73deeaf2429715fbefbe7fdb9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

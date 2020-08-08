@@ -16,7 +16,10 @@ namespace SimpleLightProbePlacer
         public int MergedProbes { get { return m_mergedProbes; } }
         public bool UsePointLights { get { return m_usePointLights; } set { m_usePointLights = value; } }
         public float PointLightRange { get { return m_pointLightRange; } set { m_pointLightRange = value; } }
+        private int m_mergedProbes;
+        private LightProbeGroup m_lightProbeGroup;
 
+#if UNITY_EDITOR
         public LightProbeGroup LightProbeGroup
         {
             get
@@ -25,10 +28,6 @@ namespace SimpleLightProbePlacer
                 return m_lightProbeGroup = GetComponent<LightProbeGroup>();
             }
         }
-
-        private int m_mergedProbes;
-        private LightProbeGroup m_lightProbeGroup;
-
         public void DeleteAll()
         {
             LightProbeGroup.probePositions = null;
@@ -149,5 +148,6 @@ namespace SimpleLightProbePlacer
 
             return corners.Select(x => transform.TransformPoint(x * range)).ToList();
         }
+#endif
     }
 }
