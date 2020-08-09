@@ -41,6 +41,27 @@ Prerequistes
 * This has been tested for `>= 2018.3`
 * Windows / OSX, not tested on Linux
 
+Install Package
+---------------
+
+### Install via OpenUPM
+
+The package is available on the [openupm registry](https://openupm.com). It's recommended to install it via [openupm-cli](https://github.com/openupm/openupm-cli).
+
+```
+openupm add com.pixelwizards.lightprobeplacement
+```
+
+### Install via Git Url
+
+Open Packages/manifest.json with your favorite text editor. Add the following line to the dependencies block.
+
+    {
+        "dependencies": {
+            "com.pixelwizards.lightprobeplacement": "https://github.com/PixelWizards/com.pixelwizards.lightprobeplacement.git"
+        }
+    }
+
 Content
 ----------------
 
